@@ -1,0 +1,515 @@
+.main{
+    padding:0%;margin: 0%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    /* align-items:center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:110vh;
+    width:100%;
+}
+.col1{
+    margin: 0%;padding: 0px;
+    height:91vh;
+    width:24%;
+    background-color:black;
+    display:flex;
+    
+}
+.col11{
+    margin:5px;margin-left: 3px;
+    margin-top: 8px;
+    height:13vh;
+    width:95%;
+    border:2px solid rgb(12, 12, 12);
+    border-radius:10px;
+    background-color:rgb(12, 12, 12);
+    display:flex;
+    justify-content: center;
+    
+
+}
+header > .col11 > h1{
+    color:rgb(201, 201, 201);font-family: 'Libre Baskerville', serif;
+}
+
+/* JIYA GABBA */
+.col12{
+    margin:5px;margin-left: 3px;
+    margin-top:8px;
+    width:95%;
+    height:75vh;                                
+    border:2px solid rgb(11, 11, 11);
+    border-radius:10px;
+    background-color: rgb(12, 12, 12);
+    display:flex;flex-wrap: wrap;
+    /* overflow-y: scroll;
+    overflow-y: auto; */
+    text-align:center;
+    /* overflow: hidden; */
+  
+
+}
+/* scroll bar of col12*/
+/* .col12:hover{
+    overflow:overlay;
+
+}
+.col12::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.col12::-webkit-scrollbar-thumb{
+    width:10px;border-radius: 10px;
+    background:linear-gradient(rgb(179, 195, 198),transparent);
+} 
+
+.col12:hover::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.col12:hover::-webkit-scroll-thumb{
+    width:10px;border-radius:10px;
+    background:rgb(98, 107, 109);
+} */
+
+
+/* /---/ */
+.col12b1{
+    margin:0%;
+    height:45px;
+    width:100%;
+    background-color:transparent; 
+}
+.box1 {
+    margin:0;padding:10px;padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.Buttons{
+    width:92%;height:15%;text-align: start;padding-left: 7px;background-color:transparent;
+
+}
+
+.Buttons:hover {
+    background:rgb(68, 70, 71);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+
+
+/* .col12 > .box2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} */
+
+/* .col12 > .box2 > div {
+    margin:0%;padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+} */
+
+
+/* /(gabba) You have write your css code here in this section below/ */
+.col12b1{
+    height:40%;
+    background-color: transparent;
+    /* margin-bottom:20px; */
+    margin-top:0;
+    
+}
+.col12b2{
+    height:50%;
+    background-color: black;
+    /* margin-bottom:5px; */
+    margin-top:5px;
+    width:30px; 
+    border-color:white;
+    border-radius: 10px;
+    
+}
+h1{
+    /* text-align: centre; */
+    color:white;
+}
+p2{
+    font-family: sans-serif;
+    color:white,
+}
+.col12 > div{
+    font-size: large;color: white;width:100%;
+}
+/* /--/ */
+
+
+.col2{
+    margin: 0%;padding: 0%;margin-top: 5px;
+    height:90vh;
+    border: 2px solid ;
+    border-color: linear-gradient(rgb(1, 39, 51),rgb(36, 134, 151));
+    border-radius:10px;
+    width:74%;
+    background:linear-gradient(rgb(1, 39, 51),rgb(36, 134, 151));
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+                                            /* S C R O L L    code details     */
+.col2:hover{
+    overflow:overlay;
+
+}
+.col2::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.col2::-webkit-scrollbar-thumb{
+    width:10px;border-radius: 10px;
+    background:linear-gradient(rgb(179, 195, 198),transparent);
+} 
+
+.col2:hover::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.col2:hover::-webkit-scroll-thumb{
+    width:10px;border-radius:10px;
+    background:rgb(98, 107, 109);
+}
+
+/*/
+.box21{
+    margin:0%;
+    width:100%;height:45%;
+    background:transparent;
+    display:flex;flex-direction: column;flex-wrap: wrap;
+    background-image: url("/bg.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:right ;
+    margin-right:50px;
+}
+/--MY SECTION--/
+.box211 {
+    margin:0%;
+    height:60px;width:73.89%;
+    background:linear-gradient(rgb(11,11,11),transparent);
+    color :white;
+    position:fixed;
+    display: flex;
+    flex-direction: column;flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+
+}
+/SEARCH BAR/
+/*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  ::selection{
+    color: #fff;
+  }
+  .wrapper{
+    width: 370px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .select-btn, li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .select-btn {
+    height: 35px;
+    padding: 0 20px;
+    font-size: 15px;
+    background: #bfbfbf;
+    border-radius: 7px;
+    justify-content: space-between;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: 'Libre Baskerville', serif;
+}
+  .select-btn i{
+    font-size: 31px;
+    transition: transform 0.3s linear;
+  }
+  .wrapper.active .select-btn i{
+    transform: rotate(-180deg);
+  }
+  .content{
+    display: none;
+    padding: 20px;
+    margin-top: 15px;
+    background: #bfbfbf;
+    border-radius: 7px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+  }
+  .wrapper.active .content{
+    display: block;
+  }
+  .content .search{
+    position: relative;
+  }
+  .search i{
+    top: 50%;
+    left: 15px;
+    color: #999;
+    font-size: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    position: absolute;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .search input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0 20px 0 43px;
+    border: 1px solid #848282;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .search input:focus{
+    padding-left: 42px;
+  }
+  .search input::placeholder{
+    color: #7a7878;
+  }
+  .content .options{
+    margin-top: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 7px;
+  }
+  .options::-webkit-scrollbar{
+    width: 7px;
+  }
+  .options::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+  .options::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 25px;
+  }
+  .options::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b3;
+  }
+  
+element.style {
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+  .options li{
+    height: 50px;
+    padding: 0 13px;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+
+  }
+  .options li:hover, li.selected{
+    border-radius: 5px;
+    background: #f2f2f2;
+  }
+
+.box212{
+    margin-top:6.5%;margin-left:15px;
+    height:70%;width:70%;
+    background:transparent; 
+    /* border:1px solid white;   */
+    /* border-radius: 5px ; */
+    display:flex;
+    justify-content:flex-end;
+}
+.greetings {
+    padding:15px;
+    color:rgb(120, 130, 124);font-family: 'Libre Baskerville', serif;
+    font-weight:lighter;
+}
+
+.greetings:hover{
+    color:white;
+}
+
+
+.box22{
+    margin:0%;
+    width:100%;height:55%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background:transparent;
+}
+/* JOYASH */
+.box221{
+    margin:15px;
+    margin-top:0%;
+    width:98%;height:90%;                
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    display:flex;flex-direction:row;flex-wrap:wrap;
+    background-color:rgb(12, 12, 12);        
+} 
+/* /(JOYASH) You have to write your css code here in this section below/ */
+
+.box221{
+    margin:15px;margin-top:0%;
+    width:98%;height:95%;
+    display:flex;flex-direction:row;flex-wrap:wrap;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    background-color:rgb(12, 12, 12);
+    
+}      
+/* /--/ */
+
+
+
+/* JIYA */
+.box222{
+    margin:15px;margin-top:0%;
+    width:98%;height:90%;
+    display:flex;flex-direction:row;flex-wrap:wrap;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    background-color:rgb(12, 12, 12);
+}
+/* /(Jiya) You have to write your css code here in this section below/ */
+.box222{
+    margin:15px;margin-top:0%;
+    width:98%;height:95%;
+    display:flex;flex-direction:row;flex-wrap:wrap;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    background-color:rgb(12, 12, 12);
+    
+}
+/* /(Jiya) You have to write your css code here in this section below/ */
+.suggested{
+    height:15%; width: 100%;background-color: rgb(11,11,11);color:white;font-family: 'Libre Baskerville', serif;
+    background-color: transparent;
+    padding-left: 25px;
+}
+.menu_song{
+  background-color: rgb(11,11,11);
+  border:2px solid transparent;border-radius: 10px;
+  justify-content: flex-start;
+  height:85%;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  overflow: hidden;
+  padding-left:20px;
+}
+.menu_song{
+        overflow-y:hidden;
+        width: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        display:flex;flex-direction: column;flex-wrap: wrap;
+        column-gap: 15px;
+      
+}
+.menu_song:hover{
+    overflow:overlay;
+}
+.menu_song::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.menu_song::-webkit-scrollbar-thumb{
+    width:10px;border-radius: 10px;
+    background:linear-gradient(to right,rgb(179, 195, 198),transparent);
+} 
+
+.menu_song:hover::-webkit-scrollbar{
+    width:10px;
+    background:transparent;
+}
+.menu_song:hover::-webkit-scroll-thumb{
+    width:10px;border-radius:10px;
+    background:rgb(92, 138, 146);
+}
+.song:hover{
+    background-color:rgb(68, 70, 71);
+
+}
+.song{
+    background-color: rgb(26, 28, 29);
+    border:2px solid transparent;
+    display: flex;
+    height:95%;
+    width:180px;
+    justify-content: center;
+    border-radius: 10px;}
+
+
+.menu_song img{
+    height:130px;
+    width:145px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+   
+}
+.menu_song figcaption{
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: 400;
+    align-items: start;color:white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   
+    white-space: nowrap;
+
+}
+.menu_song  .subtitle{
+    font-size: 100;
+    padding-top: 6px;
+    /* font-weight: 400; */
+    color:rgb(165, 164, 164)
+}
+
+/* /--/ */
+
+
+.box223{
+    margin:15px;margin-top: -0.5%;
+    width:98%;height:1px;
+    border-radius: 10px;
+    display:flex;flex-direction:row;flex-wrap:wrap;
+    background:transparent;
+}
+.col3{
+    height:120px;
+    width:1400px;
+    background-color: rgb(26, 28, 29);
+    display: block;
+    position: fixed bottom;
+}
+
